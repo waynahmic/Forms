@@ -1,0 +1,96 @@
+body{
+    background: url(./asset/beautiful-nature-3605547.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+.parent{
+background-color: lightblue;
+width: 500px;
+height: 650px;
+
+}
+input[type=text] {
+  width: 70%;
+  padding: 16px 20px;
+  margin: 10px;
+  border: 2px white solid;
+  border-radius: 30px;
+}
+button{
+  width: 30%;
+  border: 10px solid darkblue;
+  border-radius: 30px;
+  color: whitesmoke;
+  background-color: darkblue;
+}
+
+/* input[type=button]:hover{
+  filter: drop-shadow(0);
+  transition: 1s;
+ } */
+select{
+  width: 78%;
+  border: 2px;
+  border-radius: 30px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-image: url(./asset/bx-map.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-left: 40px;
+ }
+ .user{
+  display: inline-block;
+  background-image: url(./asset/bx-user.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-right: 200px;
+  margin-left: 10px;
+  border: 100px;
+ }
+ .user::after {
+  content: "User";
+  margin-left: 10px;
+}
+
+ .hdd{
+  display: inline-block;
+  background-image: url(./asset/bx-hdd.svg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  padding-left: 200px;
+  margin-left: 10px;
+}
+
+.hdd::after {
+  content: "HDD";
+  margin-left: 10px;
+}   
+ .d1{
+height: 90px;
+width: 200px;
+top: 40px;
+ }
+ a{
+  text-decoration: none;
+ }
+ .box{
+  margin-right: 15rem;
+  position: relative;
+  }
+  .RM{
+    position: absolute;
+    top: 10px;
+  }
+
+ .checkbox{
+width: 40px;
+height: 30px;
+ }
+ h5{
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
